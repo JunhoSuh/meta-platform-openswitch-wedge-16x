@@ -1,6 +1,6 @@
 # Copyright (C) 2016 Hewlett Packard Enterprise Development LP
 
-PR_append = "_wedge-16x"
+PR_append = "_wedge_16x"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 

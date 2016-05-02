@@ -1,9 +1,10 @@
 # Copyright (C) 2016 Hewlett Packard Enterprise Development LP
 
-PR_append = "_wedge-16x"
+PR_append = "_wedge_16x"
 
-SRC_URI = "git://git@github.com/ops-wedge/ops-hw-config.git;protocol=https \
+SRC_URI = "git://git@github.com/JunhoSuh/ops-hw-config.git;protocol=https;branch=master \
 "
+SRCREV = "9450035742fbc6062a8e5701dbccc6b7e4b61dcf"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
